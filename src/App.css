@@ -1,0 +1,79 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('https://img.freepik.com/premium-photo/watermelon-slice-soft-pink-background-summer-color-3d-rendering_499384-1555.jpg');
+  color: rgb(246, 242, 242);
+}
+
+.App {
+  text-align: center;
+}
+
+main {
+  border-radius: 6px;
+  background: #edecef;
+  margin: 50px auto;
+  width: 400px;
+  padding: 32px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg,
+      rgb(245, 5, 5) 0%,
+      rgb(245, 244, 244) 100%);
+  padding: 8px 16px;
+  border-radius: 6px;
+  width: 350px;
+}
+
+.card:nth-child(4n + 1) {
+  background: linear-gradient(90deg,
+      rgb(245, 5, 5) 0%,
+      rgb(245, 244, 244) 100%);
+}
+
+.card:nth-child(4n + 2) {
+  background: linear-gradient(90deg,
+      rgb(245, 5, 5) 0%,
+      rgb(245, 244, 244) 100%);
+}
+
+.card:nth-child(4n + 3) {
+  background: linear-gradient(90deg,
+      rgb(245, 5, 5) 0%,
+      rgb(245, 244, 244) 100%);
+}
+
+button {
+  border: none;
+  border-radius: 4px;
+  height: fit-content;
+  padding: 6px 8px;
+  cursor: pointer;
+}
+
+#tasks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+}
+
+.task-input {
+  border: none;
+  border-radius: 6px;
+  padding: 16px;
+}
